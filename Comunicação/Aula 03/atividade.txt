@@ -1,0 +1,43 @@
+Aqui, você encontrará a atividade que deverá ser realizada nesta Agenda.
+
+Em caso de dúvidas, procure o seu mediador por meio do CorreioTec.
+
+Fique atento ao prazo indicado!
+
+Imagine que você trabalha como auxiliar de suporte ou analista de sistemas em uma empresa de tecnologia. Recentemente, a empresa lançou uma nova funcionalidade em seu sistema corporativo, e você participou do processo de implantação. Por conhecer o funcionamento da ferramenta, sua liderança solicitou a produção de um material explicativo para orientar os colegas da empresa. O público desse material é formado por usuários leigos, que não possuem conhecimentos técnicos aprofundados. Por isso, o texto deverá ser claro, objetivo, organizado e suficientemente detalhado para permitir que qualquer usuário realize o procedimento sem auxílio direto. Elabore um guia breve de utilização de uma nova funcionalidade de um sistema, utilizando o formato de flashcards, infográfico ou tutorial visual.
+
+O material deverá apresentar uma sequência lógica, organizada em três momentos:                           
+
+1) Começo: apresentação da funcionalidade e preparação do usuário;
+
+2) Meio: descrição ordenada do procedimento;
+
+3) Fim: confirmação da ação, identificação de erro possível e indicação da solução.
+
+Instruções para a produção do texto. Escolha uma funcionalidade fictícia de um sistema:
+
+reativar uma conta bloqueada;
+redefinir uma senha;
+cadastrar um novo usuário;
+gerar um relatório;
+acompanhar o status de um pedido;
+compartilhar um arquivo;
+solicitar suporte técnico.
+ O guia deverá conter:
+
+um título claro;
+a identificação do sistema e da funcionalidade;
+uma breve introdução sobre a finalidade e o benefício do recurso;
+os requisitos necessários antes do início;
+um passo a passo numerado e organizado;
+a indicação do resultado esperado;
+uma orientação final ao usuário.
+DICA DE OURO: Antes da produção do guia, organize as informações em uma ficha de planejamento, registrando o objetivo da funcionalidade, o público-alvo, os requisitos, as etapas, o erro provável e a solução. Utilize linguagem clara, objetiva e adequada à comunicação profissional na área de Desenvolvimento de Sistemas.
+
+
+Competências estudadas nesta atividade:
+Competências:
+Desenvolver textos técnicos, comerciais e administrativos aplicados à área de Desenvolvimento de Sistemas, de acordo com normas e convenções específicas.
+
+Habilidades:
+Aplicar modelos de correspondência comercial aplicados à área de atuação.

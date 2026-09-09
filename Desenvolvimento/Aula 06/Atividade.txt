@@ -1,0 +1,43 @@
+Aqui você encontra a atividade dessa Agenda.
+
+Salve o seu arquivo como: seuNome_Ag6_DS_I. Envie sua atividade aqui mesmo, pelo fichário.
+
+Em caso de dúvidas, procure o seu mediador por meio do CorreioTec.
+
+Fique atento ao prazo indicado!
+
+Você foi contratado para desenvolver um programa que implemente um sistema de desconto progressivo para uma loja online. Este sistema deve aplicar descontos de acordo com o valor total da compra. As regras de desconto são as seguintes:
+
+Se o valor total da compra for menor do que R$ 200,00, o cliente recebe um desconto de 5%.
+Se o valor total da compra for maior ou igual a R$ 200,00 e menor que R$ 300,00, o cliente recebe um desconto de 10%.
+Se o valor total da compra for maior ou igual a R$ 300,00, o cliente recebe um desconto de 15%.
+
+
+Escreva um programa em Python que solicite ao usuário que insira o valor total da compra e, em seguida, calcule e exiba o valor do desconto a ser aplicado e o valor total a ser pago pelo cliente após o desconto.
+
+Como entregar a atividade:
+
+Organize bem o código, aplicando os conceitos apresentados até o momento no curso.
+Comente os blocos do código para explicar o que cada parte faz.
+Envie o link do projeto disponibilizado no seu ambiente GitHub.
+Critérios para avaliação desta atividade:
+
+- envio do arquivo conforme solicitado;
+
+- organização do código e clareza na estrutura;
+
+- aplicação de conceitos apresentados até o momento.
+
+- utilização otimizada dos comandos (sem repetições desnecessárias).
+
+- comentários explicativos no código para facilitar a compreensão.
+
+- envio dos prints do programa funcionando corretamente.
+
+
+Competências estudadas nesta atividade:
+Competências:
+Implementar algoritmos de programação. Utilizar linguagem de programação em ambiente de desenvolvimento.
+
+Habilidades:
+Elaborar algoritmos. Codificar programas, utilizando técnica de programação estruturada. Desenvolver raciocínio lógico utilizando estrutura de decisão caso/case.

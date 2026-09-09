@@ -1,0 +1,43 @@
+# Estrutura de Decisão
+
+Programar é traduzir condições e decisões para uma linguagem que o computador entende
+
+Estrutura condicional → Cada estrutura condicional abre caminhos para automatizar processos, tornar o sistema mais inteligente e prevenir erros que poderiam comprometer a operação ou a segurança dos dados.
+
+## op relacionais
+Os operadores relacionais são símbolos usados para comparar valores dentro de uma expressão lógica, sempre será verdadeiro (True) ou falso (False
+
+Eles são usados para:
+• Controlar fluxos de decisão (if, elif, else);
+• Validar regras (como limites, permissões, faixas etárias, notas mínimas etc.);
+• Comparar resultados de cálculos, sensores ou variáveis;
+• Filtrar e classificar dados em programas mais complexos
+
+---
+
+```python
+idade = int(input("Digite sua idade: "))
+if idade >= 18:
+	print("Você é maior de idade.")
+else:
+	print("Você ainda é menor de idade.")
+```
+
+Indentação é o alinhamento do código utilizado para indicar que um conjunto de instruções pertence a uma determinada estrutura
+** No Python, isso não é apenas uma questão estética — é obrigatório. **
+
+chaves { } para delimitar → No Python **pela indentação**
+
+```python
+nota = float(input("Digite sua nota: "))
+
+if nota >= 9:
+	print("?? Excelente desempenho!")
+else:
+	if nota >= 7:
+		print("Aprovado!")
+	else:
+		if nota >=5:
+			print("Recuperação.")
+		else: print("Reprovado.")
+```
