@@ -1,0 +1,60 @@
+A palavra “texto” tem a mesma origem da palavra “têxtil”, que se refere a tecidos, ou seja, assim como um tecido é um conjunto organizado de fios entrelaçados, o texto é o entrelaçamento de palavras e grupos de palavras
+
+coesão e coerência, que dizem respeito à organização do texto, sua apresentação quanto à forma e ao conteúdo.
+
+Resumo, resenha, fichamento, citação, paráfrase
+
+Ele estabelece a coerência entre as partes do texto, ou seja, a relação lógica entre as ideias porque elas têm que se complementar para que o texto possua sentido completo.
+
+Por outro lado, quando falamos em coesão, estamos falando justamente sobre o modo como se estabelece a conexão entre elementos no texto, por intermédio de elementos coesivos (palavras, orações, períodos, parágrafos), que criam harmonia entre as partes de um texto.
+
+## Coesão e coerência
+
+há dois tipos fundamentais de coerência: a coerência interna, que diz respeito à relação entre
+os elementos internos do texto, ou seja, entre as ideias expressas pelo próprio texto, sua organização etc.; e
+a coerência externa, que estabelece a relação entre o texto e o mundo que é seu referente (o assunto de que
+ele fala). Para Charolles (1997), um texto coerente satisfaz a quatro requisitos:
+• a continuidade (a retomada constante dos elementos e ideias do texto);
+• a progressão (a organização da sequência das ideias);
+• a não-contradição (evitar ideias que entrem em conflito);
+• a relação (a ligação entre as ideias e conceitos expressos).
+
+### recursos de coesão
+• Elementos Coesivos: O uso de pronomes (ele, a, isso...), conjunções (e, mas, porque...) ou advérbios (aqui, ali, lá, aí...) para retomar elementos ou para antecipá-los
+• Elipse: a exclusão de um elemento anterior ou posterior da frase, sem alteração de sentido
+• Metonímia: a substituição de uma palavra por outra, quando essas palavras guardam alguma relação de sentido entre si, “O funcionário viajou em visita técnica à empresa. No estabelecimento, o empregado participou de um curso”.
+
+## Pontuação
+divididos em dois tipos: os separadores, que separam elementos do texto e ajudam na sua organização formal, e os sinais de comunicação, que organizam as falas
+
+os sinais de comunicação: : '' "" - -- () [] {}
+os separadores: , . ; ! ? ...
+
+## vírgula.
+
+• LISTA: João, Maria, Ricardo
+• SEPARAR EXPLICAÇÕES: Jonas, o técnico de informática, não veio hoje
+• SEPARAR O LUGAR, O TEMPO OU O MODO NO INÍCIO DA FRASE: Nos arquivos, encontramos os dados necessários para a tarefa
+• SEPARAR ORAÇÕES INDEPENDENTES
+
+### Intertextualidade: relação que se estabelece entre dois textos
+textos usam outros mais antigos como parte de sua elaboração, seja de maneira explícita, ou seja, deixando evidente a origem das informações
+usos de intertextualidade no contexto profissional técnico são:
+• Citação: a citação é feita quando se menciona diretamente o texto de outra pessoa
+• Paráfrase: quando reescrevemos algum texto com nossas palavras
+
+## Hipertexto
+no hipertexto as informações intertextuais são organizadas de maneira que o leitor seja livre para seguir vários caminhos de leitura, sem a necessidade de estar preso a uma linearidade ou sequência de ideias. Ele se organiza em blocos de informação, ligados a palavras, partes de texto ou imagens
+
+Resumo → O resumo é um texto que, como o próprio nome diz, “resume” outro texto. apenas um parágrafo e não traz muitos detalhes
+
+Resenha → A resenha é um resumo crítico. estrutura:
+• Cabeçalho, com a identificação completa da obra (autor(es), ano de produção/publicação etc.)
+• Breve descrição da obra, como um resumo;
+• Comentário crítico, que pode ser feito ao longo do resumo ou depois, destacando o valor do objeto resenhado.
+
+Fichamento → organizam tópicos com anotações sobre uma obra, no formato de “fichas”, que identificam os dados bibliográficos da obra (autor, editora, título, edição, cidade, data, etc.) e compilam os principais pontos de seu conteúdo, de modo conciso. 
+São três os principais tipos de fichamento:
+• Fichamento de conteúdo: praticamente um resumo, porém organizado em tópicos
+• Fichamento de citações: ao invés de fazer paráfrases, anotam-se trechos relevantes da obra, com a devida indicação da página onde elas aparecem
+• Fichamento bibliográfico: consiste em não apenas anotar passagens ou fazer resumos de conteúdo, mas em tecer comentários descritivos
