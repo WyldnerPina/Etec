@@ -1,0 +1,44 @@
+Aprender sobre as condições compostas e os operadores lógicos é aprender a traduzir o nosso modo de pensar para a linguagem da máquina
+
+
+Operador E (AND); Operador OU (OR), Operador NÃO (NOT) → tabela verdade
+--------------------------------------------------------------------------------------
+idade = 20
+carteira = True
+
+if idade >= 18 and carteira:
+	print("Próxima fase!")
+else:
+	print("recusado.")
+
+--------------------------------------------------------------------------------------
+carro_credenciado = False
+visitante_autorizado = True
+
+if carro_credenciado or visitante_autorizado:
+	print("Acesso liberado ao estacionamento!")
+else:
+	print("Acesso negado! Nenhum registro encontrado.")
+
+--------------------------------------------------------------------------------------
+usuario_ativo = True
+sistema_em_manutencao = False
+
+if usuario_ativo and not sistema_em_manutencao:
+	print("Acesso permitido. Usuário ativo e sistema disponível.")
+else:
+	print("Acesso negado! Verifique as condições.")
+
+--------------------------------------------------------------------------------------
+opcao = input("Digite uma opção (1 - PCs, 2 - Manutenção, 3 - Regras): ")
+
+match opcao:
+	case "1" | "um" | "Um":
+		print("Computadores disponíveis: Lab01-PC01 ao Lab01-PC20.")
+	case "2" | "dois" | "Dois":
+		print("Abrindo chamado de manutenção... descreva o problema.")
+	case "3" | "tres" | "Três" | "três":
+		print("Regras: uso individual, silêncio e não alterar configurações.")
+	case _:
+		print("Opção inválida. Tente novamente.")
+--------------------------------------------------------------------------------------

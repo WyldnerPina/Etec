@@ -1,0 +1,40 @@
+os botões não se destacavam, os ícones não eram intuitivos e as cores não ajudavam o usuário a entender o que fazer. Apesar de o sistema estar “funcionando”, ele não estava sendo compreendido
+
+detalhes — como contraste, tamanho, posicionamento e consistência — podem transformar completamente a experiência do usuário.
+
+a forma como a interface é apresentada influencia diretamente a experiência do usuário. Elementos gráficos como botões, banners e logotipos não são apenas visuais: eles orientam ações, facilitam a navegação e tornam o sistema mais intuitivo.
+
+os elementos gráficos desempenham um papel muito mais significativo do que apenas tornar o sistema visualmente agradável. Eles são responsáveis por orientar o usuário, indicar possibilidades de ação e facilitar a navegação dentro do sistema
+
+→ Botões
+Um botão bem construído deve transmitir clareza, segurança e previsibilidade. Isso significa que o usuário precisa reconhecer facilmente sua função, entender o que acontecerá ao clicar e perceber sua importância em relação aos demais elementos da tela. Em situações práticas, como na criação de um sistema de cadastro, um botão destacado com cor contrastante e um rótulo claro como “Cadastrar” ou “Salvar” facilita a interação e reduz erros.
+
+→ Ícones
+principal função representar ações ou conceitos de maneira visual. compreensão mais rápida. Ícones muito complexos ou pouco conhecidos podem gerar confusão, enquanto símbolos simples e universalmente reconhecidos facilitam a navegação
+
+é importante manter um padrão visual consistente, seja no estilo, nas cores ou no nível de detalhamento.
+
+• Canva → aba “Elementos”
+
+→ Banners
+desempenham um papel estratégico na comunicação visual, são utilizados para destacar informações importantes, como novidades, alertas ou promoções, direcionando a atenção do usuário para determinadas ações. uso adequado de cores, imagens e tipografia contribui para que a mensagem seja compreendida rapidamente
+
+1. Acesse o Canva e clique em Criar um design. Escolha um formato adequado, como apresentação, post para redes sociais ou tamanho personalizado.
+2. Defina o fundo do banner. Você pode usar uma cor suave, um degradê ou uma imagem com aparência mais leve, para não prejudicar a leitura das informações.
+
+→ Heurísticas de Usabilidade.
+As heurísticas são princípios gerais que orientam o desenvolvimento de interfaces mais intuitivas, ajudando a prever como o usuário irá interagir com o sistema. não são regras rígidas, mas diretrizes baseadas em estudos sobre comportamento humano e interação com tecnologias. Um dos conjuntos mais conhecidos é o proposto por Jakob Nielsen. 
+
+Entre esses princípios, destaca-se a visibilidade do status do sistema, que consiste em manter o usuário sempre informado sobre o que está acontecendo. Um exemplo simples é quando um botão muda de cor ao ser clicado ou quando aparece uma mensagem indicando que uma ação foi realizada com sucesso. Outro princípio importante é o feedback, que complementa essa ideia ao fornecer respostas claras às ações do usuário, reduzindo dúvidas e insegurança durante a navegação.
+
+A consistência também é uma heurística fundamental, pois garante que elementos semelhantes tenham comportamentos semelhantes em todo o sistema. Quando um botão possui determinada cor ou posição em uma tela, espera-se que esse padrão se repita em outras, evitando que o usuário precise reaprender a interface a cada nova interação. Além disso, a prevenção de erros é um princípio essencial, pois busca evitar que o usuário cometa equívocos. Um exemplo comum é solicitar confirmação antes de
+excluir um item ou desabilitar botões quando uma ação não pode ser realizada.
+Outro aspecto relevante é o reconhecimento em vez da memorização, que propõe que o sistema deve apresentar informações de forma visível, facilitando a tomada de decisão do usuário. Em vez de exigir que ele memorize comandos ou etapas, a interface deve oferecer pistas visuais claras, como ícones, rótulos e destaques. Esse princípio está diretamente relacionado à criação de elementos gráficos bem planejados.
+
+https://www.softdesign.com.br/blog/heuristicas-de-nielsen/
+
+
+
+
+
+ 

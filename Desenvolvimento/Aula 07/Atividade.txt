@@ -1,0 +1,39 @@
+Aqui você encontra as atividades que deverão ser realizadas nesta Agenda. Salve o seu arquivo, com os dois exercícios abaixo, no formato: seuNome_Ag7_DS_I. Envie sua atividade aqui mesmo, pelo fichário.
+
+Em caso de dúvidas, procure o seu mediador por meio do CorreioTec.
+
+Fique atento ao prazo indicado!
+
+A companhia de saneamento da sua cidade lançou uma campanha de conscientização ambiental e precisa de um script em Python para classificar o perfil de consumo dos imóveis e emitir alertas educativos aos moradores.
+
+Solicite ao usuário o tipo de imóvel (opções esperadas: "comercial", "casa" ou "apartamento").
+Solicite o consumo mensal de água em metros cúbicos (𝑚3 ) (número decimal).
+Implemente a classificação de acordo com as seguintes regras de negócio: o Se o tipo for "comercial", exibir:
+"Tarifa comercial aplicada – consulte o plano corporativo."
+Se o tipo for "apartamento" e o consumo for menor que 10 𝑚3 , exibir: "Consumo econômico – excelente controle de água!"
+Se o tipo for "apartamento" ou for "casa" com consumo de até 25 𝑚3 , exibir: "Consumo moderado – dentro do padrão residencial."
+Em qualquer outro caso (consumo acima do limite residencial), exibir: "Consumo excessivo – adote medidas de economia e verifique vazamentos.
+Além de desenvolver o programa, você deverá publicá-lo no GitHub, com um repositório organizado, README completo e ícones que deixem o projeto atraente e profissional.
+
+O que você deve fazer:
+
+Crie uma subpasta chamada consumo-agua.
+No arquivo app.py, desenvolva um programa em Python que:
+Criar o arquivo README.md
+
+No README, escreva uma breve explicação sobre o projeto, por exemplo:
+
+Nome e objetivo do sistema.
+Linguagem usada (Python).
+Instruções para executar o programa.
+Ícones e badges representando as tecnologias (Python, GitHub, Energia, etc.).
+Use emojis e badges do shields.io para deixar o projeto mais visual!
+
+Compartilhar o link Copie o link do repositório e envie ao professor (via fichário) para correção e feedback. É necessário o envio do link, não será aceito prints de tela ou arquivos de projeto.
+
+Critérios de Avaliação
+
+Funcionalidade
+Estrutura Git
+Documentação
+Publicação
