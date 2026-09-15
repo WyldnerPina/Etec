@@ -1,91 +1,124 @@
-# ⚡ Calculadora de Consumo Elétrico
+# 🧮 Calculadora para Aplicação de Desconto
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
-![Energia](https://img.shields.io/badge/Energia-Consumo-yellow)
+Um programa desenvolvido em **Python** para calcular automaticamente o desconto aplicado sobre o valor de uma compra e informar o valor final a ser pago.
 
-## 📋 Sobre o projeto
+O projeto foi desenvolvido como parte de uma atividade acadêmica, com foco na prática de **entrada de dados, estruturas condicionais, cálculos matemáticos e formatação de valores**.
 
-A **Calculadora de Consumo Elétrico** é um programa desenvolvido em Python que permite estimar o consumo mensal de energia elétrica de um aparelho.
+## 🎯 Objetivo
 
-O usuário informa o nome do aparelho, sua potência em watts e o tempo médio de uso diário. Com essas informações, o programa calcula uma estimativa do consumo mensal em kWh.
+O sistema solicita ao usuário o valor total da compra e aplica automaticamente uma porcentagem de desconto de acordo com o valor informado.
 
-O programa também realiza uma estimativa do custo mensal da energia considerando o valor fixo de **R$ 0,75 por kWh**.
+### 💰 Regras de desconto
 
-## 🛠️ Tecnologias utilizadas
+| Valor da compra | Desconto |
+|---|---:|
+| Menor que R$ 200,00 | 5% |
+| De R$ 200,00 a menor que R$ 300,00 | 10% |
+| R$ 300,00 ou mais | 15% |
 
-* 🐍 Python
-* 💻 Git
-* 🐙 GitHub
+Após calcular o desconto, o programa apresenta:
 
-## 🧮 Fórmula utilizada
+- 💸 Valor do desconto aplicado
+- 🛒 Valor total a ser pago
 
-O consumo mensal é calculado através da fórmula:
+## 🛠️ Tecnologias
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-181717?logo=github&logoColor=white)
+
+### Conceitos utilizados
+
+- 🐍 Python
+- 🔀 Estruturas condicionais (`if`, `elif`, `else`)
+- 🔢 Conversão de dados com `float()`
+- ➕ Operações matemáticas
+- 💰 Cálculo de porcentagem
+- 📝 `f-string` para formatação de valores
+- 💵 Formatação de números com duas casas decimais
+- ⌨️ Entrada e saída de dados pelo terminal
+
+## 📁 Estrutura do projeto
 
 ```text
-consumoMensal = (potencia × horasDia × 30) / 1000
-```
-
-Onde:
-
-* **potência** = potência do aparelho em watts (W);
-* **horasDia** = média de horas de uso por dia;
-* **30** = quantidade estimada de dias no mês;
-* **1000** = conversão de Wh para kWh.
-
-O custo estimado é calculado através da fórmula:
-
-```text
-custoMensal = consumoMensal × 0,75
+calculadora-desconto/
+│
+├── app.py
+└── README.md
 ```
 
 ## ▶️ Como executar
 
+### 1. Pré-requisito
+
 É necessário ter o **Python 3** instalado no computador.
 
-Clone o repositório:
+### 2. Clone o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone URL_DO_REPOSITORIO
 ```
 
-Entre na pasta do projeto:
+### 3. Acesse a pasta do projeto
 
 ```bash
-cd consumo-energia
+cd calculadora-desconto
 ```
 
-Execute o programa:
+### 4. Execute o programa
 
 ```bash
 python app.py
 ```
 
-## 💡 Exemplo
+## 💻 Funcionamento
+
+Ao executar o programa, o usuário deverá informar o valor total da compra.
+
+Exemplo:
 
 ```text
-=== Calculadora de Consumo Elétrico ===
+=== Calculadora para aplicação de desconto ===
 
-Digite o nome do aparelho: Geladeira
-Digite a potência do aparelho em watts (W): 100
-Digite o tempo médio de uso diário em horas: 15
+Digite o valor total da compra: 250
 
---- Resultado ---
-Aparelho: Geladeira
-Consumo estimado: 45.00 kWh/mês
-Custo estimado: R$ 33.75/mês
+Valor do desconto: R$25.00
+Valor total a ser pago: R$225.00
 ```
 
-## 📁 Estrutura do projeto
+Nesse exemplo, como o valor da compra está entre **R$ 200,00 e R$ 299,99**, é aplicado um desconto de **10%**.
+
+## 🧠 Lógica utilizada
+
+A porcentagem de desconto é determinada através de estruturas condicionais:
 
 ```text
-consumo-energia/
-├── app.py
-└── README.md
+Valor < R$ 200,00
+        ↓
+      5%
+
+Valor < R$ 300,00
+        ↓
+      10%
+
+Valor ≥ R$ 300,00
+        ↓
+      15%
 ```
 
-## ⚠️ Observação
+Depois de determinar o desconto, o programa calcula o valor correspondente ao desconto e o subtrai do valor original da compra.
 
-O valor de **R$ 0,75 por kWh** é utilizado apenas como referência para o cálculo do custo estimado. O valor real da tarifa de energia pode variar.
+## ⚠️ Observações
+
+Nesta versão, o programa considera que o usuário informará um valor numérico válido e positivo.
+
+Não foram implementados tratamentos específicos para:
+
+- Valores negativos;
+- Valores que excedam a capacidade do tipo `float`;
+- Entradas que não sejam numéricas.
+
+Esses tratamentos podem ser adicionados posteriormente como melhorias no projeto.
 
 ---
+
+💰 **Um cálculo simples, praticando conceitos fundamentais de programação.**
