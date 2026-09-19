@@ -2,7 +2,7 @@ from entrevistado import Entrevistado
 from enum_op import EnumOp
 
 
-TOTAL_ENTREVISTADOS = 10
+TOTAL_ENTREVISTADOS = 50
 
 entrevistados = set()
 
