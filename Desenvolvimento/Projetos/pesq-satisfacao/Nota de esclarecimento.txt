@@ -1,0 +1,70 @@
+Eu já venho estudando programação faz um tempo. Eu gosto de utilizar esses conhecimentos e criar um código para compreender melhor a interação das estruturas.
+
+Eu monto a lógica e vou parte por parte discutindo com a IA como utilizar aquelas estruturas. 
+Aproveitando que alguns exercícios proporcionam esse desafio além do q eu mesmo me proponho (geralmente penso muito mais rápido no que proponho, já q preciso imaginar se funcionaria e qndo percebo já tenho tudo na mente).
+
+Então, aproveitando esses exercícios comecei a utilizar conhecimentos extras e aplicá-los. Um exemplo disso foi na atividade 6 (a q não mandei o print) em q utilizei conhecimentos extras para entender o funcionamento e interação de estruturas como o try... catch. (como o exercício não era longo, não fui muito a fundo nisso). além de utilizar o Decimal e comparar algumas diferenças na sintaxes entre as linguagens q conheço (java, javascript) com as que o python apresenta (inclusive no arqv q enviei sobrou uma comparação do elif com o else if).
+
+Nesse sentido, vi uma oportunidade gigantesca de testar algumas estruturas nesse desafio. Estruturas q naturalmente ainda não fizeram parte do decorrer do curso (espero sinceramente q isso não comprometa em alguma coisa).
+
+Eu montei um código em txt msm (a lógica não era o problema) apenas o uso correto das estruturas.
+Esse é o (pseudo)código q construí para responder à questão apresentada. (alguns códigos para q eu conseguisse conversar com a IA usei em java)
+
+================================================================================ entrevistado (classe - oportunidade boa de utilizar)
+public record Entrevistado (int id, str nome, int idade, EnumOp opinião){} 
+
+================================================================================ enum_op (enum dos valores - oportunidade rara de aparecer)
+public enum EnumOp { EXCELENTE, BOM, RUIM } 
+
+================================================================================ main (arqv da lógica)
+int loop = 0 
+do 
+	print (Olá! bem vindo à pesquisa de satisfação da TudoWeb.) 
+	do 										# recebendo nome e idade (nome não blank e idade > 0)
+		str nome = digite seu nome 
+		int idade = int(digite sua idade) 
+	while(nome.isBlank ou idade <= 0) 
+											# escolha da opinião
+	do int op = int(Qual a sua opinião sobre o atendimento prestado:/n
+			1: EXCELENTE/n 
+			2: BOM/n 
+			3: RUIM/n ) 
+	while(op < 1 ou opinião > 3) 
+
+	switch(op) 									# com base na escolha eu chamo o enum e associo o valor
+		case EXCELENTE → EnumOp enumopiniao = EnumOp.EXCELENTE			# o Chat me "corrigiu" aqui, mostrando uma forma melhor de fazer 
+		case BOM → EnumOp enumopiniao = EnumOp.BOM 
+		case RUIM → EnumOp enumopiniao = EnumOp.RUIM 
+
+	int id = loop + 1 
+	Entrevistado entrevistado = new Entrevistado (id, nome, idade, enumopiniao) 	# instancio Entrevistado
+											#  (o id eu poderia fazer direto na instancia, mas assim é + intuitivo)
+	
+	Set<Entrevistado> setEntrevistados = new HashSet<>() 				# crio uma lista de pessoas
+	setEngrevistados.add(entrevistado) 						# add o entrevistado (isso poderia ser feito em uma linha só = ñ intuitivo)
+
+	print(Faltam (50-loop) entrevistas) 
+	loop ++ 	
+
+while(loop < 50) 
+// ===================================== 
+
+int qntExcelente; 
+int qntRuim; 
+
+for( Entrevistado entrevistado : setEntrevistados ){ 					# vou passar a lista dos entrevistados somando respostas
+	if(entrevistado.getOpiniao().name.equals("EXCELENTE"){ qntExcelente ++ } 
+	if(entrevistado.getOpiniao().name.equals("RUIM"){ qntRuim ++ }
+} 
+print(Resultado final:/n 
+	Quantidade de respostas EXCELENTES: qntExcelente/n 
+	Quantidade de respostas RUINS: qntRuim/n 					# print no q precisa
+
+
+
+Como discuti com a IA sobre partes do código ela foi me sugerindo mudanças, melhores formas de utilizar 
+(o switch, por exemplo, some no final pq ele associa o valor numérico direto no enum - bem legal)
+Aliás o enum foi o q utilizei pior nesse exercício - ponto de melhora.
+outro ponto a melhorar foi de enxergar try catch. ele ainda sugeriu alguns em vez de utilizar artimanhas na lógica.
+Resumindo, foi super válido para o meu aprendizado e é por isso q gostei dessa oportunidade. Demorei bem mais para fazer q o normal, porém valeu a pena. XD
+
