@@ -1,0 +1,53 @@
+Desafio Visual – “Meu Painel de Dados” com Listas (Python)
+
+Você foi convidado a criar um mini-sistema de organização de informações para a sua rotina (escola, trabalho, treinos, leituras ou qualquer tema que você goste).
+O objetivo é mostrar que listas existem para agrupar dados relacionados e permitir analisar essas informações com lógica.
+
+O código abaixo já está pronto. Sua tarefa será:
+
+Compreender a lógica e representar visualmente como ele funciona,  como se você estivesse explicando para alguém que nunca programou.
+
+ 
+
+nome = input("Digite seu nome: ")
+cidade = input("Digite sua cidade: ")
+
+tarefas = []
+qtd = int(input("Quantas tarefas você vai cadastrar? "))
+
+for i in range(qtd):
+    tarefa = input(f"Digite a tarefa {i+1}: ")
+    tarefas.append(tarefa)
+
+print("nTarefas cadastradas:")
+for t in tarefas:
+    print("-", t)
+
+if len(tarefas) == 0:
+    print("Nenhuma tarefa cadastrada.")
+elif len(tarefas) <= 3:
+    print(f"n{nome} de {cidade}: rotina leve hoje!")
+else:
+    print(f"n {nome} de {cidade}: rotina cheia! Organize prioridades.")
+Sua missão visual
+
+Crie uma imagem explicativa (ou slide, ou mapa mental) que mostre o raciocínio do programa. A ideia é que alguém consiga entender somente olhando sua explicação, sem precisar ler o código.
+Sua imagem deve mostrar:
+
+Entradas de dados: nome, cidade, quantidade de tarefas e as tarefas digitadas
+Como a lista é criada: lista vazia  - adicionando itens com append()
+Como o programa percorre a lista: for exibindo cada tarefa
+Como o programa decide a mensagem final: usando len(tarefas)
+Saídas possíveis:
+ “Nenhuma tarefa cadastrada”
+“Rotina leve”
+“Rotina cheia”
+Personalização obrigatória: sua arte deve conter SEU NOME e SUA CIDADE em destaque (como no programa)
+Dica: use setas, cores e ícones para representar o caminho que o programa percorre até chegar à resposta final, seja criativo.
+
+Formato da entrega
+Você pode entregar sua explicação em um dos formatos abaixo:
+
+Slide (PowerPoint, Google Slides ou Canva)
+Imagem explicativa ou infográfico
+O importante é que sua explicação seja visual, clara e fiel à lógica do código.

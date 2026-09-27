@@ -1,0 +1,36 @@
+Atividade:
+
+Jessica é dona de uma pequena empresa e precisa de um sistema personalizado para melhorar a gestão do seu negócio. Você foi contratado(a) para entender as necessidades da empresa, levantar requisitos e propor um modelo Ágil para o desenvolvimento do sistema.
+
+O que você precisa fazer:
+
+1. Converse com a IA de sua preferência utilizando o seguinte prompt:
+
+Eu quero que você atue como a Jessica, proprietária de uma pequena empresa. Vou fazer perguntas para entender as necessidades do seu negócio e levantar requisitos para um novo sistema. Responda detalhando os processos da empresa, dificuldades atuais e expectativas para o sistema. Depois, quando eu apresentar um modelo Ágil e um plano de trabalho, dê sua opinião sobre a proposta e sugira melhorias.
+
+A IA irá simular a Jessica, dona da empresa.
+
+2.Realize uma entrevista: faça perguntas para IA a fim entender como funciona a empresa, quais são os principais problemas e quais funcionalidades ela espera do novo sistema.
+
+3. Registre os requisitos levantados (funcionais e não funcionais).
+
+4. Monte um caso de uso para o sistema, detalhando:
+
+O ator principal (quem vai usar);
+O objetivo do uso;
+O fluxo principal de ações (passos que o usuário faz para atingir o objetivo);
+Possíveis exceções ou alternativas no processo;
+Monte um relatório (de 1 a 2 páginas) com:
+
+Lista dos requisitos identificados;
+Caso de Uso detalhado;
+Prints da interação com a IA.
+Anexe seu relatório nesta atividade.
+
+ 
+Critérios de Avaliação
+
+Clareza e organização do relatório
+Fundamentação e detalhamento do caso de uso
+Aplicabilidade ao contexto apresentado
+Cumprimento de todas as etapas propostas
