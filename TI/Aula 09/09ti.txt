@@ -1,0 +1,70 @@
+# Modelos de Desenv de sist.
+
+entender exatamente o que o usuário espera e precisa é o primeiro passo para criar soluções tecnológicas úteis e eficazes.
+
+## Diagrama de Casos de Uso da UML
+
+ Como saber quais funções o sistema deve ter sem um levantamento detalhado das necessidades do dono da loja?
+ O que pode acontecer se alguma informação importante for ignorada ou mal interpretada? 
+ Como transformar as demandas do cliente em requisitos claros e compreensíveis para toda a equipe de desenvolvimento?
+ Que ferramentas podem ajudar a organizar, visualizar e validar tudo isso antes que o sistema comece a ser programado?
+ Qual o papel do Diagrama de Casos de Uso nesse processo de descoberta e documentação?
+
+a falta de clareza sobre o que o sistema deveria fazer era uma das principais causas de fracasso em projetos de software. Hoje, o levantamento de requisitos é visto como uma etapa estratégica, capaz de evitar retrabalho, desperdício de recursos e insatisfação do cliente. A Análise de Sistemas funciona como uma ponte vital entre o universo dos negócios e o mundo da
+tecnologia. O analista atua como um tradutor: ele ouve as dores, processos e desejos dos usuários e os transforma em especificações técnicas
+
+a Coleta de Dados e o Levantamento de Requisitos formam o alicerce de qualquer projeto. Um requisito é, essencialmente, uma condição ou capacidade que o sistema deve possuir. Eles são divididos entre:
+ Requisitos Funcionais: que descrevem as ações e comportamentos do sistema (como "emitir um relatório de vendas")
+	ID 			Nome
+	RF001			Consulta se aluno está presente
+
+Requisitos Funcionais, procure colocar no nome da ação o que o sistema “FAZ”.
+
+ Requisitos Não Funcionais: que tratam de aspectos de qualidade e restrições, como segurança, desempenho e facilidade de uso.
+O processo de descobrir esses requisitos é chamado de elicitação, muitas vezes, nem o próprio cliente sabe expressar
+com clareza.
+
+
+## métodos de levantamento de requisitos:
+→ Entrevistas: É a técnica mais direta, permitindo uma conversa aberta com os interessados (stakeholders). É ideal para entender fluxos complexos e captar nuances
+→ Questionários: Úteis para coletar informações de um grande volume de pessoas simultaneamente
+→ Observação de Campo: Consiste em acompanhar o usuário em sua rotina real de trabalho
+→ Brainstorming e Reuniões de Grupo: Promovem a colaboração entre diferentes áreas da empresa
+→ Prototipagem: Envolve a criação de esboços ou telas interativas simples
+
+escolha do método adequado depende do tempo disponível, do perfil dos envolvidos e da complexidade do problema.
+
+
+as principais atividades da Engenharia de Requisitos, que ajudam a analisar, registrar e validar o que foi identificado.
+
+- Estudo de viabilidade (Relatório de Viabilidade) – verifica se as informações coletadas possibilitam implementar o desenvolvimento do software. deixar claro para o cliente o que pode ou não ser feito no software
+
+- Elicitação e análise de requisitos (Modelo de sistema) - neste momento, conseguimos identificar os detalhes para o desenvolvimento do software.
+
+Especificação de requisitos (Requisitos de usuário e de sistema) – descrições necessárias para as funções
+
+- Validação de requisitos (Documentação de requisitos) – todos os processos de levantamento de requisitos devem ser documentados e qualquer mudança
+
+
+
+
+## Erros comuns durante o levantamento de requisitos
+falta de escuta ativa, pouca participação dos usuários, comunicação falha, o analista não registra detalhadamente as informações obtidas.
+algumas estratégias são fundamentais: manter o cliente envolvido em todas as etapas
+utilizar diferentes métodos de coleta, documentar cada requisito de forma clara e revisá-los com frequência junto a todos os envolvidos, validar os requisitos antes de iniciar o desenvolvimento
+
+## Modelagem Ágil e UML – Casos de Uso
+organizar, visualizar e comunicar. a UML, oferecendo caminhos para tornar o processo mais adaptável, transparente e eficiente.
+
+requisitos ajudam a compreender o que o sistema precisa oferecer. podem contribuir para a criação e o refinamento dos itens do Product Backlog. UML (Unified Modeling Language, ou Linguagem Unificada de Modelagem)
+
+13 diagramas na UML 2.0, os quais são divididos em quatro grupos, os grupos: diagramas estruturais, diagramas comportamentais, diagramas de interação e diagramas de implementação
+
+componentes do Diagrama de Caso de Uso são: o cenário, os atores, os casos de uso e os relacionamentos (Generalização de Atores)
+
+
+## <> Include
+Inclusão deve incluir o comportamento especificado
+
+## <> Extends
+pode incluir - sujeito ao atendimento de certas condições

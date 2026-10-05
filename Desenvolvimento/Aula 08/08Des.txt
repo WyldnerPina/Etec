@@ -1,0 +1,51 @@
+# Estrutura de repetição
+
+for i in range(10):
+	print("Executando o comando número:", i + 1)
+
+• range(10) → gera 10 repetições: 0 até 9.
+• i → controla cada etapa do ciclo.
+• print(...) → é a ação repetida.
+
+
+valor = int(input("Digite 5 para continuar: "))
+while valor != 5:
+	print("Valor incorreto, tente novamente.")
+	valor = int(input("Digite 5 para continuar: "))
+
+print("Obrigado! Você digitou 5.")
+
+
+Critério				for								while
+Qndo usar		Qndo sabemos quantas vezes deve acontecer.		Qndo não sabemos qtas vezes deve  acontecer. repetir;  depende de uma condição.
+Controle do ciclo 	Controlado por um contador automático (ex.: range). 	Controlado manualmente pelo programador (variáveis, incrementos, condições).
+Condição de parada	É definida pelo próprio range ou pela lista percorrida. Deve ser definida explicitamente na condição do while.
+Risco de loop		Baixo, porque o fim geralmente é definido pelo range.	Maior risco se a variável de controle não for atualizada corretamente.
+Uso comum		Percorrer listas, repetir tarefas, gerar sequências. 	Validação de dados, menus, esperar condições externas, repetir até acertar.
+Legibilidade		Código + curto e previsível qndo a repetição é contada.	Mais flexível, mas exige mais cuidado na lógica.
+Exemplo mental		“Repita isso 10 vezes.”					“Continue repetindo enquanto isso for verdadeiro.”
+Estrutura típica	for item in sequência:					while condição:
+
+numero = int(input("Digite um número para ver a tabuada: "))
+for multiplicador in range(1, 11):
+	print(numero, "x", multiplicador, "=", numero * multiplicador)
+
+• range(1, 11) cria os números de 1 a 10.
+• multiplicador muda sozinho em cada ciclo.
+• O loop executa automaticamente o mesmo padrão.
+
+
+numero = int(input("Digite um número para ver a tabuada: "))
+contador = 1
+while contador <= 10:
+	print(numero, "x", contador, "=", numero * contador)
+	contador += 1
+
+
+senha_correta = "etec123"
+senha = input("Digite sua senha: ")
+while senha != senha_correta:
+	print("Senha incorreta! Tente novamente.")
+	senha = input("Digite sua senha: ")
+
+print("Acesso liberado! Bem-vindo ao sistema.")

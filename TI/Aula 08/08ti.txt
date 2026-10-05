@@ -1,0 +1,102 @@
+# Introdução à Análise de Sistemas e Projetos
+
+Quando você entende a fundo os modelos de desenvolvimento de software, passa a enxergar o planejamento como um diferencial estratégico na sua atuação
+escolher a abordagem mais adequada para cada tipo de desafio, organizando o projeto e a equipe de forma eficiente
+
+“modelo cascata”, “incremental” e “ágil”
+
+como transformar uma necessidade real em um sistema eficiente? É aí que entra a análise de sistemas, um campo fundamental do desenvolvimento de software responsável por entender, planejar e estruturar soluções que realmente façam diferença.
+
+o verdadeiro sucesso de um sistema depende de uma etapa anterior: analisar cuidadosamente o contexto, os processos envolvidos e as expectativas de todos os envolvidos.
+
+Análise de sistemas é o processo de investigar, compreender e definir como um sistema deve funcionar
+
+## Modelos de Desenvolvimento de Sistemas
+os modelos de desenvolvimento são conjuntos de práticas e etapas organizadas para planejar, construir, testar e entregar um sistema, desde a ideia inicial até a manutenção
+alguns valorizam o planejamento detalhado antes de começar, outros preferem ciclos rápidos de entrega e adaptação
+
+modelos tradicionais é simples: tudo começa pelo levantamento detalhado dos requisitos, seguido pelo projeto, implementação, testes e, finalmente, a entrega e manutenção
+
+Essas metodologias valorizam a documentação rigorosa, o planejamento detalhado e o controle de cada etapa, tornando o processo mais seguro em ambientes onde as mudanças são raras ou indesejadas. São escolhas comuns em projetos em que as necessidades já estão claras e o contexto não muda com frequência.
+
+## Cascata ou Clássico
+cada etapa precisa ser concluída e aprovada antes de passar para a próxima, é uma abordagem sequencial fases bem definidas, cada uma com seu objetivo claro e documentação detalhada
+
+exigências eram estáveis e bem compreendidas desde o início. etapas como: análise de requisitos, projeto, implementação, testes, e, por fim, operação e manutenção
+
+é conhecido por abordagem top down, encadeada, sequencial e sistemática
+Definição dos req → Projeto de Sistema de software → Implementação e teste de unidade → Integração e teste de sistema → Operação e manutenção
+
+grande desvantagem do Modelo Cascata é: impossibilita atender novas mudanças
+• vantagens: documentação abrangente e detalhada; maior monitoramento do processo; 
+Modelo Cascata é ideal para projetos em que as necessidades são claras desde o início e as mudanças são mínimas
+
+## Modelo Iterativo e Incremental
+os requisitos vão mudando, novas necessidades surgem e o cliente só percebe o que realmente precisa depois de ver o sistema funcionando. Para lidar com esse cenário, surgiram os modelos incremental e iterativo, que propõem uma abordagem mais flexível e adaptável
+o sistema é desenvolvido em partes menores, chamadas de incrementos. A cada ciclo, uma nova funcionalidade é planejada, implementada e testada. Isso permite entregar
+versões parciais do sistema já em funcionamento, coletar feedback dos usuários e ajustar o que for necessário antes de avançar para a próxima etapa.
+
+Levantamento de req → Análise de req → Projeto → Implementação → teste → implementação
+
+
+O modelo incremental foca em construir o sistema por blocos: a cada entrega, o produto ganha novas funções e se aproxima do objetivo final. Já o modelo iterativo destaca a repetição de ciclos, onde cada versão é aprimorada com base em revisões e testes constantes. Muitas vezes, os dois conceitos aparecem juntos, pois na prática é comum construir incrementos em ciclos de iteração. Essa lógica oferece vantagens como maior flexibilidade para mudanças, identificação precoce de problemas e engajamento contínuo do cliente no processo. Porém, exige organização e comunicação eficiente entre todos os envolvidos, já que várias atividades podem ocorrer simultaneamente e os requisitos podem evoluir ao longo do tempo.
+a abordagem incremental e iterativa reduz riscos e custos ao tornar o desenvolvimento mais próximo da realidade do usuário e mais preparado para lidar com mudanças inesperadas
+
+## Modelo Espiral
+o modelo espiral utiliza a metodologia de desenvolvimento em sequência de interações e a cada volta representa uma fase (atividade).
+
+Comunicação com o cliente → Planejamento → Análise de risco → Engenharia (modelagem) →  construção e entrega →  Avaliação pelo cliente(implantação)
+
+
+criado por Barry Boehm em 1988, permite que as ideias e a inovação sejam verificadas e avaliadas constantemente. Isso porque, a cada interação, existe a volta da espiral que pode ser baseada em um modelo diferente e ter diferentes atividades. Esse padrão caracteriza-se, portanto, pelo desenvolvimento em sequência,
+
+cada ciclo da espiral comunicação com o cliente, planejamento, análise de riscos, Modelagem, Construção e Entrega e Avaliação pelo Cliente
+metodologias tradicionais traziam alguns problemas, como:
+ Perda de tempo no processo de planejamento e atraso no desenvolvimento;
+ Dificuldade em antecipar as necessidades futuras;
+ Atraso na entrega do produto;
+ Erros apenas percebidos quando o produto final fosse entregue ao cliente.
+
+
+## Abordagens Ágeis
+projetos de sistemas precisam responder rapidamente a mudanças e valorizar a colaboração entre pessoas
+colocam a flexibilidade, o trabalho em equipe e a entrega contínua de valor para o cliente como prioridades
+
+propõem ciclos curtos de desenvolvimento, chamados de iterações, nos quais o sistema é construído, revisado e aprimorado de forma contínua. A cada ciclo, o time entrega uma parte funcional do produto e, junto com o cliente, avalia o que deve ser ajustado ou priorizado em seguida. Isso facilita adaptações rápidas, evita desperdício de esforço e favorece que o resultado final esteja mais alinhado com as necessidades reais do usuário.
+
+Manifesto Ágil, criado em 2001 quatro valores centrais:
+ indivíduos e interações mais que processos e ferramentas;
+ software em funcionamento mais que documentação abrangente;
+ colaboração com o cliente mais que negociação de contratos;
+ responder a mudanças mais que seguir um plano.
+
+
+Métodos Ágeis
+A metodologia Scrum tem como objetivo estruturar o trabalho em equipe no planejamento e desenvolvimento de softwares. Os projetos são divididos em ciclos (tipicamente mensais) chamados de Sprints, com times multifuncionais e auto gerenciáveis.
+verificar de tempos em tempos se o projeto está no caminho correto e se o que está sendo desenvolvido está de acordo com a expectativa do cliente.
+“transparência, inspeção e adaptação”.
+
+O Product Owner → é o responsável por maximizar o valor do produto e pelo gerenciamento eficaz do Product Backlog, incluindo sua ordenação. Ele pode representar necessidades de vários stakeholders. No Sprint Planning, por meio de discussão com o Product Owner, os Developers selecionam os itens do Product Backlog que entrarão na Sprint.
+
+Team → A equipe deve conter no mínimo 6 pessoas e no máximo 10, organizadas, autogerenciáveis e multifuncionais
+
+Scrum Master → é responsável pelo processo Scrum. Auxilia o Team e assegura que a equipe não se comprometa excessivamente com relação àquilo que é capaz de realizar durante um Sprint
+
+Sprints são interações de um ciclo de desenvolvimento em Scrum.
+Sprint Backlog a qual chamamos de histórias. é a lista de atividades relacionadas pelo time Scrum. Na reunião de planejamento, a equipe relaciona as tarefas e o tempo necessário para execução. Para o acompanhamento das tarefas é feita uma tabela com as sprints backlog e o responsável pelas ações. Uma vez por dia, é necessária a atualização da planilha, para que o Scrum Master gere um gráfico com as atividades realizadas e pendentes 
+
+A Sprint Planning (Planejamento da Sprint) é o evento que inicia uma Sprint. todo o Scrum Team trabalha de forma colaborativa para definir o que será realizado durante a Sprint e estabelecer um plano para alcançar a Meta da Sprint (Sprint Goal). Durante a Sprint Planning, três questões principais orientam o planejamento: 
+Por que esta Sprint é valiosa? O Scrum Team define a Meta da Sprint, indicando o valor que se pretende alcançar naquele período.
+O que pode ser realizado nesta Sprint? Os Developers, em discussão com o Product Owner, selecionam os itens do Product Backlog que poderão ser desenvolvidos
+Como o trabalho será realizado? Os Developers planejam como transformar os itens selecionados em um Incremento que atenda à Definição de Pronto (Definition of Done).
+A Meta da Sprint, os itens do Product Backlog selecionados e o plano para realizá-los formam o Sprint Backlog.
+
+Daily Scrum → um evento de 15 minutos destinado aos Developers. Seu objetivo é verificar o progresso em direção à Meta da Sprint e adaptar o Sprint Backlog quando
+necessário
+para conduzir a Daily Uma dinâmica bastante conhecida consiste em discutir três perguntas:
+ O que fiz desde a última reunião para contribuir com a Meta da Sprint?
+ O que pretendo fazer hoje para contribuir com a Meta da Sprint?
+ Existe algum impedimento que possa dificultar o andamento do trabalho?
+
+
+

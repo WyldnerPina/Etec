@@ -1,0 +1,141 @@
+# listas
+
+Quando os dados são estruturados de maneira lógica, torna-se possível acessar rapidamente qualquer informação, atualizar valores sem comprometer o restante do conjunto e manter uma visão clara do todo. facilitando a tomada de decisões e reduzindo a possibilidade de erros
+
+Na programação, essa necessidade é atendida por meio de estruturas que permitem agrupar dados relacionados e manipulá-los de maneira lógica.
+
+Em vez de trabalhar com diversas variáveis isoladas, torna-se possível reunir informações semelhantes em uma estrutura única, facilitando o acesso, a leitura e a atualização dos dados. Essa organização também permite percorrer os valores de forma ordenada, manipulá-los de maneira mais eficiente e manter o código mais claro e estruturado.
+
+Uma lista é uma estrutura de dados utilizada para armazenar vários valores em um único local, de forma organizada. Esses valores ficam reunidos em uma mesma estrutura, o que facilita o controle, o acesso e a manipulação das informações.
+
+Lista como substituto do vetor → estrutura chamada vetor, utilizada para armazenar múltiplos valores do mesmo tipo em posições organizadas sequencialmente. geralmente possui tamanho fixo
+
+No Python, esse papel conceitual é desempenhado pelas listas, as listas em Python possuem tamanho dinâmico. permitem armazenar diferentes tipos de dados no mesmo conjunto e oferecem maior flexibilidade para inserção, remoção e modificação de elementos
+
+Criando Listas
+nomes = ["Ana", "Bruno", "Carlos"]
+
+idades = [18, 20, 22]
+precos = [10.5, 8.99, 15.0]
+situacao = [True, False, True]
+
+Listas vazias
+alunos = []
+
+o nome da lista explica o que ela armazena
+
+Acessando elementos da lista
+
+Leitura de valores
+
+nomes = ["Ana", "Bruno", "Carlos"]
+print(nomes[0])
+print(nomes[2])   → Ana Carlos
+
+
+Alteração de valores
+nomes = ["Ana", "Bruno", "Carlos"]
+nomes[1] = "Beatriz"
+
+
+Percorrendo a Lista
+Percurso manual (acesso direto)
+
+nomes = ["Ana", "Bruno", "Carlos"]
+print(nomes[0])
+print(nomes[1])
+print(nomes[2])
+
+
+nomes = ["Ana", "Bruno", "Carlos"]
+for nome in nomes:
+	print(nome)
+
+len() retorna a quantidade de elementos existentes em uma lista.
+nomes = ["Ana", "Bruno", "Carlos"]
+for i in range(len(nomes)):
+	print(nomes[i])
+
+notas = [7.5, 8.0, 6.5]
+for nota in notas:
+	print(nota)
+
+Adicionar Elementos
+1. Usando append() – adiciona um único elemento ao final da lista.
+2. Usando insert() – adiciona um elemento em uma posição específica
+
+nomes = ["Ana", "Bruno"]
+nomes.append("Carlos")
+print(nomes)			→  ['Ana', 'Bruno', 'Carlos']
+
+
+nomes = ["Ana", "Bruno"]
+nomes.insert(1, "Carlos)
+print(nomes)  			→  ['Ana', 'Carlos', 'Bruno']
+
+
+1. Usando remove() – remove a primeira ocorrência de um valor.
+2. Usando pop() – remove um elemento baseado no índice e o retorna.
+3. Usando clear() – remove todos os elementos da lista.
+
+
+nomes = ["Ana", "Bruno", "Carlos"]
+nomes.remove("Bruno")
+print(nomes)				→ ['Ana', 'Carlos']
+
+
+nomes = ["Ana", "Bruno", "Carlos"]
+nome_removido = nomes.pop(1)
+print(nomes)				→ ['Ana', 'Carlos']
+print(nome_removido)			→ Bruno
+
+
+Verificar existência de valores
+nomes = ["Ana", "Bruno", "Carlos"]
+print("Ana" in nomes)			→ True
+print("Daniela" in nomes)		→ False
+
+
+notas = [7.5, 8.0, 6.5]
+if 7.0 in notas:
+	print("Existe nota igual a 7.0 na lista")
+
+
+Tomada de decisão usando dados da lista
+notas = [7.5, 8.0, 6.5]
+for nota in notas:
+	if nota < 7:
+		print("Aluno com nota abaixo da média")
+
+
+estoque = [10, 3, 8]
+for quantidade in estoque:
+	if quantidade < 5:
+		print("Atenção: estoque baixo")
+
+Listas de listas (Listas como matrizes )
+matriz = [
+	[7, 8, 6],
+	[5, 9, 10],
+	[8, 7, 6]
+]
+
+
+print(matriz[0][1])		→ 8
+
+
+Percorrendo as Matrizes
+for linha in matriz:
+	for valor in linha:
+		print(valor)
+
+
+estoque = [
+	["Teclado", 10, 120.00],
+	["Mouse", 3, 80.00],
+	["Monitor", 2, 950.00]
+]
+for produto in estoque:
+	if produto[1] < 5:
+		print(f"Atenção: estoque baixo para o produto {produto[0]}")
+

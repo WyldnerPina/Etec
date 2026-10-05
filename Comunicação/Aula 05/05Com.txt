@@ -1,0 +1,66 @@
+# Texto Técnico
+
+## ATA
+1. O que buscamos comunicar? Os assuntos debatidos na reunião e as resoluções tomadas
+2. Com quem vamos nos comunicar? aos próprios membros da reunião algo decidido anteriormente. ou registram as decisões para pessoas que não puderam participar da reunião.
+3. Qual a situação em que a comunicação ocorre? A ata é registrada no momento da reunião, com o cuidado de anotar as falas e tudo mais que foi discutido, e depois ela é normalmente passada a limpo para uma versão padronizada. 
+4. Qual o resultado esperado para essa comunicação? Que as discussões e decisões tomadas na reunião sejam devidamente registradas e que o devido cumprimento de atividades propostas na reunião sejam posteriormente verificadas.
+
+## Procuração
+documento que serve para uma pessoa nomear outra de sua confiança para agir em seu nome. A pessoa que dá os poderes para outra é chamada de outorgante ou constituinte, e a que recebe de outorgado ou procurador 
+pode ser de dois tipos: a de plenos poderes permite ao procurador agir de forma ilimitada em nome do constituinte, dentro da jurisprudência definida no documento; já a outorga específica define, claramente, quais os poderes o procurador tem
+estrutura básica:
+• Título: Procuração;
+•Identificação do outorgante/constituinte, em primeira pessoa, trazendo nome, estado civil, nacionalidade, profissão, números de identidade, de CPF e residência;
+•Identificação do outorgado/procurador, com os mesmos dados do outorgante, na mesma ordem;
+•Indicação e descrição dos poderes que cabem ao procurador, ou plenos ou, no caso da outorga específica, uma descrição bastante detalhada;
+•Local e data;
+•Assinatura do outorgante/constituinte.
+
+Lembrando que, dependendo da exigência de certos órgãos, a procuração pode ser escrita à mão, de próprio punho. Independentemente de ser em versão digitada ou à mão, deve sempre ter a assinatura do autor.
+
+
+## Requerimento
+fazer uma solicitação de algo, esperando que o pedido seja deferido (aceito).
+
+Normalmente, o requerimento é dirigido a uma autoridade pública para a obtenção de um benefício, um
+direito ou qualquer tipo de satisfação de necessidade ou interesse
+
+• Título: Requerimento;
+• O texto é normalmente elaborado em terceira pessoa, e o nome do autor aparece sempre por extenso e todo em letras maiúsculas;
+• Vocativo: Nome da pessoa, instituição ou o órgão destinatário da comunicação, para quem vamos fazer o pedido;
+• Corpo de Texto: é o texto em si, ou seja, o pedido que vamos realizar;
+• Saudações Finais: como todo texto técnico, o requerimento utiliza a linguagem formal e traz saudações finais, como “grato pela compreensão”, “atenciosamente”, “cumprimentos” etc.
+• É comum o uso de duas expressões, geralmente abreviadas: “nestes termos” (N. Termos), ou seja, de acordo com o que foi dito acima, “pede deferimento” (P. Deferimento), ou seja, a pessoa autora do requerimento pede que ele seja aceito;
+• Local e Data: ao final do requerimento;
+• Assinatura do Requerente: por fim, o remetente, ou seja, a pessoa (instituição, órgão, entidade) interessada em solicitar algo, assina o documento. Ele também pode ser acompanhado de carimbo da instituição.
+
+
+## Currículo
+documento que tem o objetivo de apresentar os dados e as qualificações de um candidato a uma vaga de emprego
+
+. Título: Currículo;
+. Dados pessoais: nome, data de nascimento, estado civil, nacionalidade, endereço, telefones, e-mail. Importante salientar que é sempre necessário a presença de ao menos um número de telefonefixo;
+. Experiência profissional, com local, cargo, período e atividades desenvolvidas. Pode-se ordenar essas informações por data (geralmente da mais recente para a mais antiga) ou por relevância para o cargo preterido. Além disso, é muito importante saber selecionar a experiência que seja realmente relevante para a função pretendida;
+. Formação escolar, com local, curso e período. Assim como no caso da experiência, pode-se ordenar por data ou relevância. Para cursos ainda não concluídos, apresenta-se a data de início e a data prevista de término. E a cada nova graduação alcançada é aconselhável eliminar da listagem a formação mais baixa, como ensino fundamental;
+. Além dessas informações, que são essenciais e obrigatórias para todos os currículos, pode ser importante acrescentar, ainda: 
+. Um pequeno texto descrevendo seus objetivos profissionais, como o cargo que almeja, as áreas de atuação etc.
+. Cursos e formação complementar, como cursos de línguas estrangeiras e de informática; 
+. Possíveis trabalhos voluntários, que causam uma boa impressão a respeito do profissional, valorizando seu lado humano.
+
+## Ordem de Serviço 
+serve para a formalização do trabalho que será prestado a um cliente e inclui os dados do cliente e do serviço prestado.
+
+. Número da Ordem de Serviço;
+. Local, data e hora de processamento;
+. Nome e cargo do emissor da ordem;
+. Descrição do serviço a ser realizado;
+. Valor unitário e total
+. Forma de pagamento;
+. Detalhamento do serviço, com discriminação dos materiais, procedimentos etc;
+. Quantidade de horas trabalhadas na execução do serviço.
+
+
+## Email
+a principal forma de comunicação entre funcionários e setores é o e-mail.
+
