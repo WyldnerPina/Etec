@@ -1,0 +1,45 @@
+# Modelando a ETEC: Diagrama de Caso de Uso com IA
+
+## Cenário do Projeto:
+
+A ETEC deseja um Sistema de Matrícula Online que:
+
+Permita ao Aluno: cadastrar-se, visualizar cursos, matricular-se, ver notas e histórico.
+Permita ao Professor: acessar lista de alunos, registrar notas e frequência, disponibilizar materiais.
+Permita à Secretaria Acadêmica: gerenciar alunos/professores, criar/editar cursos, aprovar matrículas, gerar relatórios.
+Interaja com um Sistema Interno de Pagamentos para processar taxas.
+
+Sua Missão:
+
+1. Análise e Rascunho:
+Leia o cenário e liste os Atores (quem interage com o sistema) e os Casos de Uso (o que o sistema faz). Não se preocupe em acertar de primeira, o importante é começar!
+Pense: Há atores com características em comum que poderiam ser "generalizados" (ex: "Pessoa" para "Aluno" e "Professor")?
+
+2. Refinamento com a IA:
+Com sua lista inicial, interaja com a IA. Peça sugestões, tire dúvidas ou valide suas ideias.
+
+Exemplos de como perguntar à IA:
+Identifiquei [Atores A, B, C] e [Casos de Uso X, Y, Z]. O que você acha? Há algo faltando ou que posso melhorar?
+Quero agrupar 'Registrar Notas' e 'Registrar Frequência' em 'Gerenciar Diário de Classe'. É uma boa ideia?
+O que é um 'Sistema Interno de Pagamentos' em um Diagrama de Caso de Uso? É um ator ou um caso de uso?
+Use o feedback da IA para revisar e melhorar suas listas de Atores e Casos de Uso.
+
+3. Criação do Diagrama Final:
+Utilizando o rascunho refinado, desenhe o Diagrama de Caso de Uso. Você pode usar ferramentas online gratuitas (ex: Draw.io, Lucidchart, Miro).
+Certifique-se de incluir: o limite do sistema (retângulo), os atores (fora), os casos de uso (elipses dentro) e as linhas de comunicação.
+
+Como a IA te Ajuda:
+A IA não fará o trabalho por você, mas será um assistente inteligente:
+Sugere: Pode dar ideias para atores ou casos de uso que você não pensou.
+Questiona: Fará perguntas para estimular seu raciocínio e aprofundar sua análise.
+Valida: Ajuda a verificar se suas escolhas fazem sentido dentro do cenário e das regras da UML.
+Explica: Tira dúvidas sobre conceitos e simbologias.
+Deverá ser entregue:
+
+Um relatório contendo todas as etapas da criação do diagrama, prints da interação com IA escolhida. Diagrama final criado.
+
+O que será avaliado:
+Identificação: Se os atores e casos de uso estão corretos para o cenário.
+Qualidade do Diagrama: Se o diagrama está claro, organizado e usa a simbologia básica da UML corretamente.
+Coerência: Se as interações representadas fazem sentido.
+Uso da IA: Evidência de que você usou a IA como ferramenta de apoio para pensar e refinar suas ideias.

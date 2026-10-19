@@ -1,0 +1,81 @@
+# Bibliotecas
+
+Em Python, muitas tarefas comuns já possuem soluções prontas. Essas soluções estão organizadas em bibliotecas, que podem ser entendidas como conjuntos de funções e recursos desenvolvidos para facilitar a criação de programas.
+
+Entre as bibliotecas padrão mais utilizadas, podemos destacar:
+math 		|	fornece funções matemáticas, como cálculos de raiz quadrada, potências e operações trigonométricas.
+random 		|	permite a geração de valores aleatórios, sendo muito utilizada em sorteios, jogos e simulações.
+datetime 	| 	possibilita o trabalho com datas e horários, como registro de eventos e controle de tempo.
+os 		|	oferece recursos para interação com o sistema operacional, como acesso a pastas e arquivos.
+sys 		|	fornece informações e recursos relacionados ao funcionamento do próprio Python.
+time 		|	permite trabalhar com intervalos de tempo e pausas na execução do programa.
+
+import math
+resultado = math.sqrt(25)
+print(resultado)
+
+import random
+numero = random.randint(1, 10)
+print(numero)
+
+Outra forma de utilizar uma biblioteca em Python é importar apenas a função que será usada no programa. Essa abordagem é indicada quando o código necessita de um recurso específico, evitando a importação de toda a biblioteca.
+
+from math import sqrt
+
+
+======================================================================================================
+import random
+
+participantes = ["Ana", "Carlos", "Beatriz", "João", "Mariana"]
+
+print("Participantes do sorteio:")
+for nome in participantes:
+	print("-", nome)
+
+sorteado = random.choice(participantes)
+
+print("\nResultado do sorteio:")
+print("O participante sorteado foi:", sorteado)
+======================================================================================================
+
+## O pip: gerenciador de bibliotecas
+
+Além das bibliotecas padrão que já acompanham o Python, existem milhares de outras bibliotecas desenvolvidas pela comunidade, voltadas para as mais diversas finalidades. Para gerenciar essas bibliotecas externas, o Python utiliza uma ferramenta chamada pip.
+
+O pip é o gerenciador de pacotes do Python. Ele permite instalar, atualizar e remover bibliotecas de forma simples, diretamente pelo terminal ou prompt de comando
+
+Antes de instalar novas bibliotecas, é importante conhecer quais já estão disponíveis no ambiente Python. Para isso, o pip oferece um comando que lista todas as bibliotecas instaladas
+
+no terminal:
+pip list
+
+Cada ambiente pode apresentar resultados diferentes, pois a lista depende das bibliotecas que já foram
+adicionadas anteriormente.
+Esse comando é muito utilizado no mercado de trabalho para:
+• verificar dependências de um projeto;
+• identificar versões instaladas;
+• conferir se uma biblioteca necessária já está disponível no ambiente.
+
+## Instalando bibliotecas externas com o pip
+Para instalar uma biblioteca externa, utilizamos o comando pip install, seguido do nome da biblioteca desejada. O comando deve ser executado no terminal ou prompt de comando
+pip install nome_da_biblioteca
+
+pip se conecta a um repositório oficial de pacotes Python, faz o download da biblioteca e a instala automaticamente no ambiente
+
+## Biblioteca colorama
+A biblioteca colorama é uma biblioteca externa simples e visual, utilizada para alterar cores e estilos de textos exibidos no terminal.
+pip install colorama
+
+Após a instalação, no código Python, a biblioteca deve ser importada:
+
+=================================================================================
+from colorama import Fore, Style
+
+print(Fore.GREEN + "Sistema iniciado com sucesso!")
+print(Fore.YELLOW + "Atenção: verifique os dados informados.")
+print(Fore.RED + "Erro: operação não realizada.")
+
+print(Style.RESET_ALL)
+=================================================================================
+
+Style.RESET_ALL é utilizado para restaurar o estilo padrão do terminal

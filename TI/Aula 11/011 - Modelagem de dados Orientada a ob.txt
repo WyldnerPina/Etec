@@ -1,0 +1,66 @@
+# Modelagem de dados Orientada a objetos
+
+Além das informações sobre as características dos objetos de dados, é preciso coletar dados sobre as ações que esse objeto executará
+
+A abstração consiste em conseguir identificar um item do mundo real e transformá-lo em uma classe,
+
+classe é um conjunto de objetos distintos, porém com as mesmas características e comportamentos
+
+classe é composta por atributos (características) e por métodos (ações)
+
+Os atributos definem as propriedades de um objeto, conhecidos também como variáveis ou campos. Os métodos são ações ou procedimentos dos objetos
+
+nome dos métodos declarados como verbos
+
+## herança
+sobrescrita de métodos, classes e polimorfismo
+A primeira vantagem dessa organização é evitar a duplicidade de código
+
+classes Professor e Aluno possuem atributos comuns (nome e idade) e vários métodos
+
+alguns métodos e atributos são específicos de cada classe
+
+## polimorfismo
+Polimorfismo tem como princípio a criação de uma hierarquia de objetos com métodos e nomes comuns para operações conceitualmente similares, porém implementados de
+forma diferente para cada classe da hierarquia.
+
+classe chamada Vendedor e outra chamada Diretor podem ter como base uma classe chamada Pessoa, com um método chamado CalcularVendas
+
+método polimórfico
+
+(public decimal função() → em java)
+
+## Análise Orientada a Objetos
+No Product Backlog fazemos o levantamento e análise de requisitos. Nesse momento, é preciso identificar quais classes deverão ser implementadas e quais serão seus principais atributos e métodos para que os requisitos sejam satisfeitos. Para isso, geralmente são utilizados os Diagramas de Casos de Uso e o Diagrama de
+Classe da UML (Unified Modeling Language) - Linguagem Unificada de Modelagem
+
+Grady Booch, James Rumbaugh, Jacobson, que em 1995
+
+Existem 13 diagramas na UML 2.0, os quais são divididos em quatro grupos, de acordo com o tipo de análise que os modelos gerados por sua utilização possibilitam. São esses os grupos: diagramas estruturais, diagramas comportamentais, diagramas de interação e diagramas de implementação
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

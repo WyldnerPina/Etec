@@ -1,0 +1,7 @@
+# Relatório
+
+Primeiramente foi feito o diagrama. Tentei inserir um relacionamento entre: "registrar notas e frequências" - <<include>> → "acessar lista de alunos"
+Porém o Chat pediu para retirar. Eu acredito q seria bem plausível o relacionamento, mas optei por fazer como o chat pediu (IAs não são boas em engenharia - dado empírico, mas é o q penso)
+Após isso apenas renomeei alguns casos de acordo com o proposto pela Inteligência. 
+
+Segue anexo os prints da conversa, além da imagem do DCU gerado ao final das discussões.
