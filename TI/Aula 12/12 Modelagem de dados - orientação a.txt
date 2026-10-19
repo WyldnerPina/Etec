@@ -1,0 +1,25 @@
+# Modelagem de dados - orientação a objetos
+
+## Diagrama de Classes
+fornece visão estática do modelo
+nem sempre tem atributos e méts (ou só um ou só outro)
+
+### Associação
+relação entre objs. Pode definir papéis e multiplicidade e ter seu próprio nome.
+
+### Agregação
+Objeto todo contém objetos parte (empresa <>--- depto ...... time <>--- atleta)
+
+### Composição
+= anterior, mas com dependência onde um constrói ou destrói o outro (Pedido </>---- ItensPedido)
+
+### Herança (especialização ou generalização) 
+"é um tipo de"
+
+### Dependência
+é != de associação pq conexão é temporária (em função por exemplo)
+Janela [tratarEvento():void] - - - - > Evento [+start:void]
+
+AparelhoEletronico [+ligar():void] <- - - - ControleUniversal [+ligar(apEletronico: AparelhoEletronico):void]
+
+

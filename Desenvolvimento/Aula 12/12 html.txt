@@ -1,0 +1,65 @@
+O nome “index” é utilizado como padrão para o arquivo HTML referenciá-lo como site principal
+
+Todo o HTML é baseado em utilização de tag, porém, esse código não é uma tag e sim uma instrução especial que indica qual a versão do HTML os navegadores utilizarão para exibir uma página HTML, então solicitamos ao navegador que use o HTML 5 para exibir a página criada.
+
+Doctype
+Versão
+<!DOCTYPE html>							HTML5
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01//EN”		HTML 4.01
+“http://www.w3.org/TR/html4/strict.dtd”>			Strict
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN”	HTML 4.01
+“http://www.w3.org/TR/html4/loose.dtd”>				Transitional
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01 Frameset//EN”	HTML 4.01
+“http://www.w3.org/TR/html4/frameset.dtd”>			Frameset
+
+
+todas as tags ficarão entre o <html> - “aberto” e o </html> - “fechado”.
+
+<head> e </head> são usadas como cabeçalho da página
+especificação desta tag obriga que codifiquemos outra tag: <title><title>
+
+tag <body></body> contém o corpo da página, ou seja, é o que será exibido pelo navegador em sua janela
+
+
+<html lang=”en”>
+informações são chamadas de atributos. Existem basicamente dois tipos de atributos:
+Globais Que funcionam em todas as Tags
+Específicos Que são direcionados para cada Tag, por meio de especificação
+
+os atributos possuem um nome e um valor
+lang pode ser usado para declarar o idioma
+
+<metacharset=”UTF-8”>
+Meta função passar instruções a programas externos. são meta dados, ou seja, dados sobre os dados da página
+charset com o valor “UTF-8”, que serve para indicar o formato de codificação de caracteres utilizados no documento
+O charset UTF-8 é o que usamos na web atual e faz parte de um padrão chamado Unicode. A ideia é que com ele possamos representar qualquer caractere, de qualquer idioma.
+
+<meta name=”viewport”content=”width=device-width, initial-scale=1.0”>
+configuração de visualização da área visível de uma página da web
+O valor width=device-width, definido ao atributo content, define largura da página, de acordo com a tela do dispositivo que está exibindo a página. Com o uso da vírgula, é possível colocar dois ou mais valores em um atributo. O valor initial-scale=1.0 define o zoom inicial
+
+
+
+os navegadores tratam os códigos de maneira diferente
+forçar o Internet Explorer a renderizar a página web com a versão mais recente. A partir da versão IE11, não é mais necessário o uso dessa meta
+<meta http-equiv= ”X-UA- Compatible”content= ”ie=edge”>
+
+Tag <h>
+Tag <p>
+<img>
+Insira o atributo alt na tag img com o valor “Html 5 e Css 3” e deixe o atributo src vazio.
+<img src="" alt = "Html 5 e CSS 3">
+outros atributos, tais como width e height utilizá-los a partir do CSS
+
+A partir do HTML 5, foi incorporada uma nova tag que auxilia muito o desenvolvimento de páginas para definir imagens, gráficos etc., de forma mais adequada ao HTML. Trata-se de tag <figure>, com ela é possível definir uma marcação para a legenda da imagem.
+
+<figure>
+<img src= "html5.jpg" alt= "Html e CSS 3">
+<figcaption> Logo HTML 5 e CSS</figcaption>
+</figure>
+
+<a>
+<a href="https://www.google.com" target="_blank">Link para google </a>
+<a href="https://www.google.com" target="_self">Link para google </a>
+
+
